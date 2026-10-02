@@ -1,0 +1,18 @@
+# Environment variables (secrets)
+.env
+
+# Virtual environment
+backend/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+backend/__pycache__/
+backend/.pytest_cache/
+backend/graph/__pycache__/
+backend/graph/nodes/__pycache__/
+backend/tests/__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
